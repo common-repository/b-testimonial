@@ -1,0 +1,138 @@
+.bFontSizePicker fieldset .components-font-size-picker__controls {
+  margin: 0;
+  position: relative;
+}
+.bFontSizePicker h3 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.bFontSizePicker fieldset .components-base-control__label {
+  display: none;
+}
+.bFontSizePicker fieldset .components-range-control__number {
+  display: none;
+}
+.bFontSizePicker fieldset {
+  margin-bottom: 30px;
+}
+.bFontSizePicker fieldset .components-input-control__input {
+  min-height: 20px;
+  height: 20px;
+}
+.bFontSizePicker fieldset .components-font-size-picker__controls button,
+.bFontSizePicker .components-range-control__root span:last-child > button {
+  margin: 0;
+  top: -30px;
+  right: 0px;
+  height: 23px;
+  position: absolute;
+}
+.bFontSizePicker .components-range-control__root span:last-child > button {
+  min-height: 23px;
+  height: 23px;
+}
+.bFontSizePicker .components-form-toggle {
+  float: right;
+}
+#bRating button {
+  padding: 3px 1px;
+  color: #ffac33;
+  box-shadow: none;
+}
+[btestimonialalignment="alignfull"] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.btTab[aria-selected="true"] {
+  border-bottom: 2px solid #4527a3;
+  background: #4527a3;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+}
+[aria-labelledby="tab-panel-0-general"] {
+  font-size: 15px;
+}
+.btgeneral .components-panel__body-toggle,
+.btslider .components-panel__body-toggle,
+.btstyle .components-panel__body-toggle {
+  font-size: 15px;
+}
+#bTestimonialRating ul {
+  padding: 0;
+  list-style: none;
+  margin: 0 auto !important;
+}
+#bTestimonialRating ul li {
+  margin: 7px 0;
+  display: inline-block;
+  float: none;
+}
+#bTestimonialRating ul li span {
+  color: #ffbd5c;
+}
+#bPanelLabel {
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+}
+/* .contentFullWidth [data-align="full"] {
+  max-width: none !important;
+} */
+[bbutton-active="true"]:before {
+  background: #333333;
+}
+[bbutton-active="true"] svg {
+  fill: #ffffff;
+}
+.contentFullWidth .nav_middle .owl-nav .owl-prev:before {
+  left: 0;
+}
+.contentFullWidth .nav_middle .owl-nav .owl-next:before {
+  right: 0;
+}
+.btslider .cActive {
+  box-shadow: 0 0 0 1.5px var(--wp-admin-theme-color);
+  outline: 1px solid transparent;
+}
+.BColorButton,
+.BColorButtonContainer {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  outline: 0px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #d8d8d8;
+}
+.BColorButton:hover {
+  cursor: pointer;
+}
+.BColorButtonContainer {
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(45deg, #ddd 25%, transparent 0), linear-gradient(-45deg, #ddd 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, #ddd 0), linear-gradient(-45deg, transparent 75%, #ddd 0);
+  background-size: 10px 10px;
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+  border: 1px solid #e9e9e9;
+}
+.btRemoveButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #4527a3;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9f9f9;
+  font-weight: bold;
+  line-height: 0;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
